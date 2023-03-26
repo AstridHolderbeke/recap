@@ -1,0 +1,17 @@
+select guestname, guestaddress from guest where guestaddress like "%London%" order by guestname;
+select guestname, guestaddress from hotel join booking on booking.hotelno=hotel.hotelno join guest on guest.gues>
+select * from room where type in ("double", "family") and price < 40 order by price;
+select * from booking where dateto is NULL;
+select avg(price) from room;
+select sum(price) from room where type = "double";
+SELECT COUNT(DISTINCT guestNo) FROM booking WHERE (datefrom <= "2022-08-01" AND dateto >= "2022-08-01") OR  (dat>
+
+
+guestname,guestaddress
+"Carol Farrel","6 Achray St, Glasgow"
+"Joe Keogh","2 Fergus Dr, Aberdeen"
+"John Kay","56 High St, London"
+"John Kay","56 High St, London"
+"Mike Ritchie","18 Tain St, London"
+"Mike Ritchie","18 Tain St, London"
+"Tina Murphy","63 Well St, Glasgow"
